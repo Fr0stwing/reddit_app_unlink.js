@@ -2,9 +2,10 @@
 A simple Node.js "reddit.app.link" URL expander to get the original URL for Reddit app-generated links.
 
 ## How to use
-- `npm install request`
-- Place your app link in the variable
-- nodejs reddit_app_unlink.js
+- Open the terminal
+- Install the Request module with `npm install request`
+- Place your reddit.app.link in the `urlToExpand` variable, save.
+- In the terminal, run it with `nodejs reddit_app_unlink.js`
 
 ## Discord.js integration
 You can obviously use this with Discord.js.
