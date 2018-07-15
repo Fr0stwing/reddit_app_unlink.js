@@ -21,7 +21,9 @@ function callback(error, response, body) {
 	var postId = rawResponse.substring(commentsLocation, commentsLocation+17);
 	// Add the post ID that we just found after the default reddit URL.
 	var expandedLink = "https://www.reddit.com" + postId;
-	// Variable outputs. "expandedLink" is the variable what you want.
+	// Variable outputs. "expandedLink" is the variable that you want.
+	// Also, note that you don't have to use "/r/subreddit". The "/comment/"
+	// will redirect you automatically.
 	console.log("Input: " + urlToExpand)
 	console.log("Output: " + expandedLink);
 }
