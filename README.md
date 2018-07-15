@@ -16,6 +16,7 @@ Usually, you would want to use something that doesn't follow redirects which ret
 ## Discord.js integration
 You can obviously use this with Discord.js.
 Adapt the following with the actual script:
+
 (You can also add failsafes, such as searching for only the link in the message, etc.)
 
 ```
