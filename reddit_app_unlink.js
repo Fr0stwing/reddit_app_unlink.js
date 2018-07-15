@@ -3,6 +3,7 @@ var request = require('request');
 // Enter your reddit.app.link in this variable.
 var urlToExpand = "your_url_here";
 
+// These options determine the URL and the User-Agent to use.
 var options = {
   url: urlToExpand,
   headers: {
