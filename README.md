@@ -2,14 +2,15 @@
 A simple Node.js "reddit.app.link" URL expander to get the original URL for Reddit app-generated links.
 
 It's not the best way of doing things, but it works. This is an alternative, and it might break at any time.
-Usually, you would want to use something that doesn't follow redirects which returns you to a Temporary Redirect with the actual link being in the "location" part of a header.
+
+Usually, you would want to use something that doesn't follow redirects which returns you to a Temporary Redirect with the actual link being in the "location" part of a header, (such as this)[https://stackoverflow.com/a/20734957]. However, this method didn't work for me for Reddit App Links (but it works for other redirects such as TinyURL!). As such, I didn't want to lose any time and crafted something that works for them.
 
 
 ## How to use
-- Open the terminal
+- Download or copy (reddit_app_unlink.js)[reddit_app_unlink.js]
 - Install the Request module with `npm install request`
-- Place your reddit.app.link in the `urlToExpand` variable, save.
-- In the terminal, run it with `nodejs reddit_app_unlink.js`
+- Place your Reddit app link in the `urlToExpand` variable, then save the file
+- Run it with `nodejs reddit_app_unlink.js`
 
 
 ## Discord.js integration
